@@ -27,7 +27,6 @@ public void searchmyntra()
 	String pagetitle=driver.getTitle();
 	Assert.assertEquals(pagetitle, expectedtitle);
 }
-
 	@AfterMethod
 	public void onTestFailure(ITestResult result) {
 	if(result.getStatus()==ITestResult.FAILURE)
@@ -41,6 +40,8 @@ public void searchmyntra()
 			e.printStackTrace();
 		}
 }
-	}
 	
+	}
 }
+	
+

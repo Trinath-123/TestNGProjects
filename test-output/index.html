@@ -127,16 +127,16 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">TestPackage.MyntraSite</span>
+              <span class="class-name">TestPackage.BaseTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="searchmyntra">
-                  </a> <!-- searchmyntra -->
-                  <span class="method-name">searchmyntra</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Online Shopping for Women, Men, Kids Fashion &amp; Lifestyle - Myntr] but found [Online Shopping for Women, Men, Kids Fashion &amp; Lifestyle - Myntra]
-	at TestPackage.MyntraSite.searchmyntra(MyntraSite.java:28)
+                  <a name="searchChrome">
+                  </a> <!-- searchChrome -->
+                  <span class="method-name">searchChrome</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Googl] but found [Google]
+	at TestPackage.BaseTest.searchChrome(BaseTest.java:31)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 33 stack frames
 </div> <!-- stack-trace -->
@@ -147,16 +147,16 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">TestPackage.BaseTest</span>
+              <span class="class-name">TestPackage.MyntraSite</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="searchChrome">
-                  </a> <!-- searchChrome -->
-                  <span class="method-name">searchChrome</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Googl] but found [Google]
-	at TestPackage.BaseTest.searchChrome(BaseTest.java:30)
+                  <a name="searchmyntra">
+                  </a> <!-- searchmyntra -->
+                  <span class="method-name">searchmyntra</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Online Shopping for Women, Men, Kids Fashion &amp; Lifestyle - Myntr] but found [Online Shopping for Women, Men, Kids Fashion &amp; Lifestyle - Myntra]
+	at TestPackage.MyntraSite.searchmyntra(MyntraSite.java:28)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 33 stack frames
 </div> <!-- stack-trace -->
@@ -219,13 +219,13 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'searchChrome')
-data.setCell(0, 2, 'TestPackage.BaseTest')
-data.setCell(0, 3, 4863);
+data.setCell(0, 1, 'searchmyntra')
+data.setCell(0, 2, 'TestPackage.MyntraSite')
+data.setCell(0, 3, 4529);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'searchmyntra')
-data.setCell(1, 2, 'TestPackage.MyntraSite')
-data.setCell(1, 3, 4021);
+data.setCell(1, 1, 'searchChrome')
+data.setCell(1, 2, 'TestPackage.BaseTest')
+data.setCell(1, 3, 3859);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -265,7 +265,7 @@ return data;
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">onTestFailure([TestResult name=searchChrome status=FAILURE method=BaseTest.searchChrome()[pri:0, instance:TestPack...)</span>
-                <span class="method-start">4870 ms</span>
+                <span class="method-start">3866 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -274,11 +274,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">searchmyntra</span>
-                <span class="method-start">5028 ms</span>
+                <span class="method-start">4029 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">onTestFailure([TestResult name=searchmyntra status=FAILURE method=MyntraSite.searchmyntra()[pri:0, instance:TestPa...)</span>
-                <span class="method-start">9052 ms</span>
+                <span class="method-start">8570 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

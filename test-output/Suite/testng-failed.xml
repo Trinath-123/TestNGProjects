@@ -3,18 +3,18 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="TestPackage.MyntraSite">
-        <methods>
-          <include name="onTestFailure"/>
-          <include name="searchmyntra"/>
-        </methods>
-      </class> <!-- TestPackage.MyntraSite -->
       <class name="TestPackage.BaseTest">
         <methods>
           <include name="searchChrome"/>
           <include name="onTestFailure"/>
         </methods>
       </class> <!-- TestPackage.BaseTest -->
+      <class name="TestPackage.MyntraSite">
+        <methods>
+          <include name="onTestFailure"/>
+          <include name="searchmyntra"/>
+        </methods>
+      </class> <!-- TestPackage.MyntraSite -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

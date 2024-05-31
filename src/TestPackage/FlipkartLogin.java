@@ -10,12 +10,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.io.FileHandler;
 import org.testng.Assert;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-public class BaseTest
+public class FlipkartLogin 
 {
 	WebDriver driver;
 	@Test
@@ -25,8 +23,8 @@ public void searchChrome()
 	
  driver=new ChromeDriver();
 	driver.manage().window().maximize();
-	driver.get("https://www.google.com");
-	String expectedtitle="Googl";
+	driver.get("https://www.Flipkart.com");
+	String expectedtitle="Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!";
 	String pagetitle=driver.getTitle();
 	Assert.assertEquals(pagetitle, expectedtitle);
 }

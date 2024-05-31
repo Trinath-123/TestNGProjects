@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-31T00:42:47 IST" name="Suite" finished-at="2024-05-31T00:42:56 IST" duration-ms="9732">
+  <suite started-at="2024-05-31T17:55:25 IST" name="Suite" finished-at="2024-05-31T17:55:35 IST" duration-ms="9344">
     <groups>
     </groups>
-    <test started-at="2024-05-31T00:42:47 IST" name="Test" finished-at="2024-05-31T00:42:56 IST" duration-ms="9732">
+    <test started-at="2024-05-31T17:55:25 IST" name="Test" finished-at="2024-05-31T17:55:35 IST" duration-ms="9344">
       <class name="TestPackage.BaseTest">
-        <test-method signature="searchChrome()[pri:0, instance:TestPackage.BaseTest@10163d6]" started-at="2024-05-31T00:42:47 IST" name="searchChrome" finished-at="2024-05-31T00:42:51 IST" duration-ms="4863" status="FAIL">
+        <test-method signature="searchChrome()[pri:0, instance:TestPackage.BaseTest@2dde1bff]" started-at="2024-05-31T17:55:25 IST" name="searchChrome" finished-at="2024-05-31T17:55:29 IST" duration-ms="3859" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Googl] but found [Google]]]>
@@ -20,7 +20,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at TestPackage.BaseTest.searchChrome(BaseTest.java:30)
+at TestPackage.BaseTest.searchChrome(BaseTest.java:31)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -55,11 +55,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchChrome -->
-        <test-method is-config="true" signature="onTestFailure(org.testng.ITestResult)[pri:0, instance:TestPackage.BaseTest@10163d6]" started-at="2024-05-31T00:42:52 IST" name="onTestFailure" finished-at="2024-05-31T00:42:52 IST" duration-ms="155" status="PASS">
+        <test-method is-config="true" signature="onTestFailure(org.testng.ITestResult)[pri:0, instance:TestPackage.BaseTest@2dde1bff]" started-at="2024-05-31T17:55:29 IST" name="onTestFailure" finished-at="2024-05-31T17:55:30 IST" duration-ms="161" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchChrome status=FAILURE method=BaseTest.searchChrome()[pri:0, instance:TestPackage.BaseTest@10163d6] output={null}]]]>
+                <![CDATA[[TestResult name=searchChrome status=FAILURE method=BaseTest.searchChrome()[pri:0, instance:TestPackage.BaseTest@2dde1bff] output={null}]]]>
               </value>
             </param>
           </params>
@@ -68,7 +68,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- onTestFailure -->
       </class> <!-- TestPackage.BaseTest -->
       <class name="TestPackage.MyntraSite">
-        <test-method signature="searchmyntra()[pri:0, instance:TestPackage.MyntraSite@25084a1e]" started-at="2024-05-31T00:42:52 IST" name="searchmyntra" finished-at="2024-05-31T00:42:56 IST" duration-ms="4021" status="FAIL">
+        <test-method signature="searchmyntra()[pri:0, instance:TestPackage.MyntraSite@156b88f5]" started-at="2024-05-31T17:55:30 IST" name="searchmyntra" finished-at="2024-05-31T17:55:34 IST" duration-ms="4529" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntr] but found [Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra]]]>
@@ -116,11 +116,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchmyntra -->
-        <test-method is-config="true" signature="onTestFailure(org.testng.ITestResult)[pri:0, instance:TestPackage.MyntraSite@25084a1e]" started-at="2024-05-31T00:42:56 IST" name="onTestFailure" finished-at="2024-05-31T00:42:56 IST" duration-ms="643" status="PASS">
+        <test-method is-config="true" signature="onTestFailure(org.testng.ITestResult)[pri:0, instance:TestPackage.MyntraSite@156b88f5]" started-at="2024-05-31T17:55:34 IST" name="onTestFailure" finished-at="2024-05-31T17:55:35 IST" duration-ms="735" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchmyntra status=FAILURE method=MyntraSite.searchmyntra()[pri:0, instance:TestPackage.MyntraSite@25084a1e] output={null}]]]>
+                <![CDATA[[TestResult name=searchmyntra status=FAILURE method=MyntraSite.searchmyntra()[pri:0, instance:TestPackage.MyntraSite@156b88f5] output={null}]]]>
               </value>
             </param>
           </params>
