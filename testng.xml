@@ -4,9 +4,7 @@
 	
   <test thread-count="5" name="Test">
     <classes>
-      <class name="TestPackage.BaseTest"/>
-      <class name="TestPackage.MyntraSite"/>
-   
+      <class name="TestPackage.Demosite"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
