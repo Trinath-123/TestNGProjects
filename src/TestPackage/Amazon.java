@@ -23,7 +23,7 @@ public void searchChrome()
  driver=new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.get("https://www.amazon.com/");
-	String expectedtitle="Amazon.com. Spend less. Smile mor";
+	String expectedtitle="Amazon.com. Spend less. Smile mo";
 	String pagetitle=driver.getTitle();
 	Assert.assertEquals(pagetitle, expectedtitle);
 }
