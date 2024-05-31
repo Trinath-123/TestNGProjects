@@ -24,7 +24,7 @@ public void searchChrome()
     driver=new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.get("https://automationpanda.com/about/");
-	String expectedtitle="About | Automation Pa";
+	String expectedtitle="About | Automation Panda111";
 	String pagetitle=driver.getTitle();
 	Assert.assertEquals(pagetitle, expectedtitle);
 }
